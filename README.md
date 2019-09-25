@@ -39,6 +39,11 @@ Based on tutorial from https://www.pyimagesearch.com/2018/06/18/face-recognition
 python encode_faces.py --dataset dataset --encodings output/dlib_encodings_brighton.pickle
 ```
 Test recognition
+Sample
+```bash
+ffmpeg -ss 00:07:00 -i input/final_20190630.mp4 -t 00:01:00 -acodec copy input/final_20190630_sample_01.mp4
+```
+Recognize Mr Breytenbikher
 ```bash
 python recognize_faces_video_file.py --encodings encodings-chgk.pickle --input input/final_20190630.mp4
 ```
