@@ -49,8 +49,7 @@ is_save_face = args["saveface"]
 # load our serialized face detector from disk
 print("[INFO] loading face detector...")
 protoPath = os.path.sep.join([args["detector"], "deploy.prototxt"])
-modelPath = os.path.sep.join([args["detector"],
-                              "res10_300x300_ssd_iter_140000.caffemodel"])
+modelPath = os.path.sep.join([args["detector"], "res10_300x300_ssd_iter_140000.caffemodel"])
 detector = cv2.dnn.readNetFromCaffe(protoPath, modelPath)
 
 # load our serialized face embedding model from disk

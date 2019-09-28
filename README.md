@@ -47,3 +47,18 @@ Recognize Mr Breytenbikher
 ```bash
 python recognize_faces_video_file.py --encodings encodings-chgk.pickle --input input/final_20190630.mp4
 ```
+
+# Install OpenCV
+ElementaryOS (based on Ubuntu)
+I use that step-by-step instructions  https://www.pyimagesearch.com/2018/05/28/ubuntu-18-04-how-to-install-opencv/
+with small updates:
+```bash
+cmake -D CMAKE_BUILD_TYPE=RELEASE \                     
+ -D CMAKE_INSTALL_PREFIX=/usr/local \
+ -D WITH_CUDA=OFF \                                        
+ -D INSTALL_PYTHON_EXAMPLES=ON \                           
+ -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules \   
+ -D OPENCV_ENABLE_NONFREE=ON \
+ -D PYTHON_DEFAULT_EXECUTABLE=$(which python3) \                      
+ -D BUILD_EXAMPLES=ON ..                                   
+```
