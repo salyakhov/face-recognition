@@ -2,7 +2,8 @@ The face recognition project inspired by Mr. Bbreitenbikher  (aka Brightonbukher
  Bredlicuper, Barbershopper, and other gazillion spellings) in Russian intellectual TV-show "Chto? Gde? Kogda?" (What? When? Where?).
 
 * https://www.instagram.com/chto_gde_kogda/
-* https://www.youtube.com/watch?v=cvxChbkMFSY
+* https://www.youtube.com/watch?v=BSPSPoJPb4k
+* https://youtu.be/f5lm2cn6N88
 
 # Option 1 - fast but accuracy is low
 Base on tutorials from https://www.pyimagesearch.com/2018/09/24/opencv-face-recognition/
